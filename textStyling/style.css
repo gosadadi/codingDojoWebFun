@@ -1,0 +1,20 @@
+* {margin: 5px;
+    padding: 5px;
+}
+h1 {padding: left 5px;;
+    color: white;
+    background-color: black;
+}
+#span {padding:0px;
+    color: aqua;}
+h2 {
+    text-align: center;
+    background-color: purple;
+    color: white;
+}
+h3 {
+    text-align: right;
+    background-color: cornflowerblue;
+    text-decoration: underline;
+    font-style: italic;
+}
