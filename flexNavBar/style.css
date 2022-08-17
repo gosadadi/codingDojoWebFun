@@ -1,0 +1,26 @@
+.nav{display: flex;
+    align-items: center;
+    color:white;
+    font-family: sans-serif;
+    background-color: rgb(100, 94, 94);
+    justify-content:space-between;
+}
+.nav-title{margin-left: 10px;
+}
+.nav-links{display: flex;
+    align-items:center;
+    justify-content:center;
+}
+li{list-style:none;
+    margin:10px;
+}
+a{
+color: white;
+text-decoration: none;
+}
+.btn{background-color: aqua;
+border: solid black;
+color: white;
+}
+.active{font-weight:bolder
+}
