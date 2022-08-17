@@ -1,0 +1,25 @@
+.division1{background-color: rgb(107, 189, 217);
+display: flex;
+align-items:center;
+justify-content:center;
+padding:20px;
+}
+.division2{background-color: rgb(209, 149, 209);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+.division3{background-color: white;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px;
+    margin:10px;
+}
+body{background-color: azure;
+    margin: 20px;
+    border-top: solid black 5px;
+}
+h1{display: flex;
+    justify-content:center;}
