@@ -1,23 +1,24 @@
 *{padding: 10px;
 
 }
-.search{color: rgb(93, 240, 191);
+.search{color:rgb(10, 200, 10);
     border-radius: 100px;
     border-color: rgb(94, 244, 194);
     height: 30px;
     width: 150px;
     font-size: 16px;
+    padding-bottom: 30px;
 }
 .pos{border-radius:100%;
     font: size 20px;
     height: 50px;
     width: 50px;
     color: white;
-    background-color: aquamarine;
-    border-color: aquamarine;
+    background-color: rgb(107, 210, 176);
+    border-color: rgb(84, 190, 155);
     font-size: 20px;
 }
-.create{background-color: rgb(112, 152, 226);
+.create{background-color: rgb(26, 96, 226);
     color:whitesmoke;
     border: solid black;
     box-shadow: 10px 5px 5px black;
