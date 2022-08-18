@@ -1,0 +1,20 @@
+*{margin:0;
+    padding:0;
+}
+.nav-bar{background-color: rgb(66, 191, 191);
+    height:80px;
+    width:540px;
+}
+.main-container{height: 600px;
+    width: 540px;
+    margin: 50px;
+    background-color:white;
+    border: solid lightgray 2px;
+}
+#paragraph{display: inline-block;
+}
+.second-container{padding-left: 30px;
+    position: relative;
+    bottom:50px;
+}
+
