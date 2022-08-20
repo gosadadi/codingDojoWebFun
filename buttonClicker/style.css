@@ -1,0 +1,108 @@
+* {
+    margin=0;
+    padding: 0;
+
+}
+
+.dojonaryBar {
+    background-color: rgb(172, 165, 165);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: 0 50px; */
+    padding: 20px;
+    height: 15px;
+
+
+}
+
+.dojonaryBar>p {
+    font-size: 20px;
+
+}
+
+form input {
+    border: solid black;
+    height: 20px;
+
+}
+
+.dojonaryBar>button {
+    background-color: dodgerblue;
+    color: white;
+    border: groove black;
+    height: 20px;
+    width: 50px;
+
+}
+
+.twomainbox {
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+}
+
+.ninja {
+    display: flex;
+    flex-direction: column;
+}
+
+.ninjatop {
+    width: 400px;
+    height: 150px;
+    border: inset black 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.ninjatopleft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.ninjatopleftbutton {
+    height: 20px;
+    width: 60px;
+    background-color: rgb(224, 150, 12);
+}
+
+.ninjabottom {
+    border: ridge 3px gray;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+
+}
+
+.ninja-bottom-left {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.ninjabottombutton {
+    height: 20px;
+    width: 60px;
+    background-color: rgb(224, 150, 12);
+}
+
+.add_definition {
+    margin-left: 20px;
+    width: 200px;
+    height: 120px;
+    border: solid 3px black;
+    padding-left: 10px;
+}
+
+.add-definition-button {
+    background-color: rgb(62, 155, 62);
+    height: 30px;
+    width: 150px;
+    border: ridge 3px black;
+
+}
