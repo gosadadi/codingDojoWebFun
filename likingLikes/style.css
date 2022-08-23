@@ -1,0 +1,26 @@
+*{box-sizing: border-box;
+    border: 0;
+    padding: 0;
+
+}
+.top{display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.main{width: 400px;
+    height: 150px;
+    border: groove 3px gray;
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+}
+.main >p{padding-left: 20px;
+
+}
+.top >button{border: outset 4px black;
+    height: 30px;
+    width: 50px;
+    background-color: yellow;
+
+}
