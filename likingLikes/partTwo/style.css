@@ -1,0 +1,136 @@
+* {
+    font-family: sans-serif;
+    margin=0;
+    padding=0;
+    box-sizing: border-box;
+}
+
+.generalDiv {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.topDiv {
+    width: 600px;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+#mainParagraph {
+    margin-top: 0;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+.mainDiv {
+    display: flex;
+
+}
+
+.leftBox {
+    border: 3px solid black;
+    max-height: 250px;
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin-right: 20px;
+    /* vertical-align: top; */
+}
+
+.rightbox {
+    flex-wrap: wrap;
+    width: 400px;
+
+
+}
+
+.Neil {
+    height: 150px;
+    width: 400px;
+    padding: 15px;
+    border: 3px solid black;
+}
+
+.Neiltop {justify-content: space-between;
+    display: flex;
+
+}
+
+.NeilTopright {
+    display: flex;
+    margin-left: 150px;
+}
+
+.NeilTopright>p {
+    margin-right: 50px;
+}
+
+.NeilTopright>button {
+    background-color: yellow;
+    height: 30px;
+    margin-top: 10px;
+    box-shadow: 3px 3px;
+}
+
+.Nichole {
+    height: 150px;
+    width: 400px;
+    margin-top: 20px;
+    padding: 15px;
+    border: 3px solid black;
+}
+
+.Nicholtop {justify-content: space-between;
+    display: flex;
+
+}
+
+.NicholeTopright {
+    margin-left: 150px;
+    display: flex;
+}
+
+.NicholeTopright>p {
+    margin-right: 20px;
+}
+
+.NicholeTopright>button {
+    background-color: yellow;
+    height: 30px;
+    box-shadow: 3px 3px;
+    margin-top: 10px;
+}
+
+.Jim {
+    height: 150px;
+    width: 400px;
+    margin-top: 20px;
+    padding: 15px;
+    border: 3px solid black;
+}
+
+.Jimtop {justify-content: space-between;
+    display: flex;
+
+}
+
+.JimTopright {
+    margin-left: 150px;
+    display: flex;
+}
+
+.JimTopright>p {
+    margin-right: 20px;
+}
+
+.JimTopright>button {
+    background-color: yellow;
+    height: 30px;
+    margin-top: 10px;
+    box-shadow: 3px 3px;
