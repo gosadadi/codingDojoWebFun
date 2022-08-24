@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojo Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="navBar">
+        <h1>DojoWeather</h1>
+        <div class="CityName" onclick="alert('Hello Stranger')">
+            <p>Burbank</p>
+            <p>Chicago</p>
+            <p>Dallas</p>
+        </div>
+    </div>
+    <div class="flexContainer">
+            <h3>San Jose</h3>
+        <div class="flexContainerTop">
+            <p>show temperature in</p>
+            <form action="#">
+            <button onclick="celsToFerhanite(this)" id="degreecels"> ºC</button>
+            <select name="" id="">
+                <option value="placeholder"></option>
+                <option value="">30</option>
+                <option value="">32</option>
+                <option value="">33</option>
+            </select>
+            </form>
+        </div>
+    </div>
+    <div class="middleSubContainer">
+        <div class="weatherForecast">
+            <p>Today</p>
+            <img src="./some_rain.png" alt="rain">
+            <p><small>some rain</small></p>
+            <div>
+                <span>24ºC</span>
+                <span>18ºC</span>
+            </div>
+        </div>
+        <div class="weatherForecast">
+            <p>Tomorrow</p>
+            <img src="./some_sun.png" alt="Sun">
+            <p><small>some sun</small></p>
+            <div>
+                <span>27ºC</span>
+                <span>19ºC</span>
+            </div>
+        </div>
+        <div class="weatherForecast">
+            <p>Friday</p>
+            <img src="./some_clouds.png" alt="Clouds">
+            <p><small>some cloud</small></p>
+            <div>
+                <span>21ºC</span>
+                <span>16ºC</span>
+            </div>
+        </div>
+        <div class="weatherForecast">
+            <p>Saturday</p>
+            <img src="./some_sun.png" alt="Sun">
+            <p><small>some sun</small></p>
+            <div>
+                <span>26ºC</span>
+                <span>21ºC</span>
+            </div>
+        </div>
+    </div>
+    <div class="bottomContainer">
+        <img src="./cookie.png" alt="">
+        <div class="cookiePolicy">
+            <h5>Stop! Cookie time</h4>
+            <p><small>We use cookies (sadly not the edible ones)
+            to personalize</small></p>
+            <p><small>content and ads,to provide social features and to analyse our traffic. <a href="">Read more...</a></small></p>
+        </div>
+        <button id="acceptButton" type="submit" onclick="hidePolicy()">I accept</button>
+    </div>
+    </div>
+    <script src="dojoWeather.js"></script>
+</body>
+</html>
