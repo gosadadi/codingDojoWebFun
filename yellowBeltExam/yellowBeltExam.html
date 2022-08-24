@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Yellow Belt Exam</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="navBar">
+            <h3>Just<span id="dessert">Dessert</span></h3>
+            <div class="joinLogBtn">
+                <button onclick="removeJoin(this)" id="joinBtn" type="submit">Join</button>
+                <button id="logBtn" type="submit">Login</button>
+            </div>
+        </div>
+        <div class="searchBar">
+            <form action="">
+                <label for="search"></label>
+                <input id="searchBtn" placeholder="SEARCH" type="search" name="#" >
+                <input id="goBtn" type="submit" value="GO" onclick="alert('you are searching for tiramisu')">
+            </form>
+            <img src="./cake.png" alt="cake">
+            <img src="./ice-cream.png" alt="icecream">
+            <img src="./cookie.png" alt="cookie">
+            <img src="./pie.png" alt="">
+        </div>
+        <div class="mainFlex">
+            <div class="mainFlexLeft">
+                <h4 id="h4"><a href="">Recipe of the Day</a></h4>
+                <img src="./orange-tart.jpg" alt="orange">
+                <div id="footerLeft">
+                    <span>Orange Tea Jelly Tart by <a href="">yuripiano</a></span>
+                    <img onclick="clickHeart1()"  src="./heart.png" alt="heart">
+                    <span id="increaseLikes1">68</span>
+                </div>
+                <p><a href="">See Full Recipe</a></p>
+            </div>
+            <div class="mainFlexRight">
+                <div class="mainFlexRightTop">
+                    <h4>Recommended for you:</h4>
+                    <img src="./macarons.jpg" alt="macarons">
+                    <div id="footerRightTop">
+                        <p>Macarons by <a href="">Emillie W</a></p>
+                        <p id="heartImageBottom"> <img onclick="clickHeart2()" src="./heart.png" alt="heart">
+                            <span id="increaseLikes2">212</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="mainFlexRightBottom">
+                    <img src="./creme-brulee.jpg" alt="creme">
+                    <div id="footerRightbottom">
+                        <p>Creme Brulee by <a href="">Marisa G</a></p>
+                        <img onclick="clickHeart3()"  src="./heart.png" alt="heart"> 
+                        <span id="increaseLikes3">33</span>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        <script src="yellowBeltExam.js"></script>
+    </body>
+</html>
