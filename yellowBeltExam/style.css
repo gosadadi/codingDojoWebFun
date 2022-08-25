@@ -5,35 +5,39 @@
 
 }
 
-#navBar {padding-left: 10px;
+#navBar {
+    padding-left: 10px;
     padding-right: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 50px;
-    width: 600px;
+    width: 80%;
     background-color: rgba(85, 77, 77, 0.802);
-    margin: 0px auto 0px auto;
-
-}
-#navBar >h3{color: white;
+    margin: 0px auto;
 
 }
 
-#dessert{color:orange
+#navBar>h3 {
+    color: white;
 
+}
+
+#dessert {
+    color: orange
 }
 
 #joinBtn {
-    width:40px;
+    width: 40px;
     background-color: orange;
     box-shadow: black 2px 2px;
-    
+
 
 
 }
 
-#logBtn {color: white;
+#logBtn {
+    color: white;
     border: 2px solid black;
     background-color: skyblue;
     box-shadow: black 2px 2px;
@@ -44,49 +48,58 @@
 
 }
 
-.searchBar {display: flex;
+.searchBar {
+    display: flex;
     align-items: center;
+    justify-content: center;
     height: 100px;
-    width: 600px;
-    margin: 0px auto 0px auto;
+    width: 80%;
+    margin: 0px auto;
     background-color: burlywood;
-    margin: 0px auto 0px auto;
+
 
 
 }
 
-#searchBtn{font-size:small;
+#searchBtn {
+    font-size: small;
     border: 2px solid black;
 
 }
 
 
 
-#goBtn{color: white;
+#goBtn {
+    color: white;
     background-color: rgb(85, 85, 186);
 }
 
 
 
 
-.searchBar >img {height:100px;
+.searchBar>img {
+    height: 80px;
+    border-radius: 50%;
+
+}
+
+.joinLogBtn {
     padding: 10px;
-    margin: auto;
-
-}
-.joinLogBtn{padding:10px;
 
 }
 
-.mainFlex {display: flex;
+.mainFlex {
+    display: flex;
     padding: 10px;
     justify-content: center;
     height: 600px;
-    width: 600px;
+    width: 80%;
     margin: 0px auto 0px auto;
 
 }
-.mainFlexLeft >p{display: flex;
+
+.mainFlexLeft>p {
+    display: flex;
     align-items: center;
     justify-content: center;
     margin: 20px;
@@ -94,67 +107,89 @@
 }
 
 
-.mainFlexLeft{background-color: lightgray;
+.mainFlexLeft {
+    background-color: lightgray;
     height: 600px;
-    width: 300px;
+    width: 80%;
     margin-right: 10px;
 
 
 }
-.mainFlexLeft > img{width:300px;
-    height: 70%;
+
+.mainFlexLeft>img {
+    img transition: 500ms;
+    width: 80%;
     margin-top: 20px;
     padding-left: 5px;
 
 }
 
-#h4 > a{display: flex;
+#h4>a {
+    display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 10px;
 
 }
-#footerLeft{display: flex;
+
+#footerLeft {
+    display: flex;
     justify-content: space-between;
     padding: 10px;
 
 }
 
-#footerLeft >img{width:20px;
-    
-}
-.mainFlexRight{background-color: lightgray ;
-    height: 600px;
-    width: 300px;
+#footerLeft>img {
+    width: 20px;
+
 }
 
-.mainFlexRightTop >img{width:300px;
+.mainFlexRight {
+    background-color: lightgray;
+    height: 600px;
+    width: 80%;
+}
+
+.mainFlexRightTop>img {
+    width: 300px;
     height: 30%;
 
 
 }
-#footerRightTop{display: flex;
+
+#footerRightTop {
+    display: flex;
     justify-content: space-between;
     align-items: center;
     padding-left: 10px;
     padding-right: 10px;
 
 }
-#footerRightTop >img{width: 20px;
+
+#footerRightTop>img {
+    width: 20px;
 
 }
-.mainFlexRightBottom >img{width: 300px;
-height: 30%;
+
+.mainFlexRightBottom>img {
+    width: 300px;
+    height: 30%;
 }
-#footerRightbottom{display: flex;
+
+#footerRightbottom {
+    display: flex;
     justify-content: space-between;
     align-items: center;
     padding-left: 10px;
     padding-right: 10px;
 }
-#heartImageBottom>img{height: 20px;
+
+#heartImageBottom>img {
+    height: 20px;
 
 }
-#footerRightbottom >img{width: 20px;
+
+#footerRightbottom>img {
+    width: 20px;
 
 }

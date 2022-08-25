@@ -24,6 +24,9 @@ function setName(element) {
 function searchAny(element) {
     alert("you search" + " " + element.value);
 }
+function scale(element, value) {
+    element.style.transform = "scale(" + value + ")";
+}
 
 
 
