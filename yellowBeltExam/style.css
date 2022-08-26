@@ -52,7 +52,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100px;
     width: 80%;
     margin: 0px auto;
     background-color: burlywood;
@@ -76,10 +75,10 @@
 
 
 
-
-.searchBar>img {
-    height: 80px;
+#searchBarImag>img {
+    border: solid gray;
     border-radius: 50%;
+
 
 }
 
